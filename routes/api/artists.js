@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const slugify = require('slugify')
-const Artist = require('../../models/artist')
+const Artist = require('../../models/Artist')
 
 // Get Artists
 router.get('/', (req, res) => {
